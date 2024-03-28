@@ -80,7 +80,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(test1.jpg) no-repeat;
+    background: url(media/images/test1.jpg) no-repeat;
     background-size: cover;
     background-position: center;    
 }
@@ -160,7 +160,14 @@ header .fa-bars{
 }
 
 .about .row .video-container h3{
+    width: 100%;
+    font-size: 3rem;
     position: absolute;
+    text-align: center;
+    padding: 1rem 2rem;
+    text-align: center;
+    background: #fff;
+    mix-blend-mode: screen;
     top: 50%; transform: translateY(-50%);
 }
 
